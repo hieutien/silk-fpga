@@ -1,0 +1,85 @@
+=== design hierarchy ===
+
+   systolic2x2                       1
+     pe                              4
+
+   Number of wires:                 80
+   Number of wire bits:            378
+   Number of public wires:          55
+   Number of public wire bits:     229
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 42
+     $add                            5
+     $dff                           13
+     $eq                             3
+     $mul                            4
+     $mux                           13
+     $pmux                           4
+
+5.12. Executing CHECK pass (checking for obvious problems).
+Checking module pe...
+Checking module systolic2x2...
+Found and reported 0 problems.
+
+6. Executing JSON backend.
+
+7. Printing statistics.
+
+=== pe ===
+
+   Number of wires:                 12
+   Number of wire bits:             62
+   Number of public wires:           7
+   Number of public wire bits:      27
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     $add                            1
+     $dff                            3
+     $mul                            1
+     $mux                            3
+
+=== systolic2x2 ===
+
+   Number of wires:                 32
+   Number of wire bits:            130
+   Number of public wires:          27
+   Number of public wire bits:     121
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 14
+     $add                            1
+     $dff                            1
+     $eq                             3
+     $mux                            1
+     $pmux                           4
+     pe                              4
+
+=== design hierarchy ===
+
+   systolic2x2                       1
+     pe                              4
+
+   Number of wires:                 80
+   Number of wire bits:            378
+   Number of public wires:          55
+   Number of public wire bits:     229
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 42
+     $add                            5
+     $dff                           13
+     $eq                             3
+     $mul                            4
+     $mux                           13
+     $pmux                           4
+
+Warnings: 1 unique messages, 1 total
+End of script. Logfile hash: ad55337fea, CPU: user 0.02s system 0.00s, MEM: 10.41 MB peak
+Yosys 0.33 (git sha1 2584903a060)
+Time spent: 25% 6x opt_clean (0 sec), 25% 7x opt_expr (0 sec), ...

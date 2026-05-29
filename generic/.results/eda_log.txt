@@ -5,7 +5,7 @@
 /usr/local/bin/entrypoint.sh: line 23: 1: command not found
 ✅ Code RTL vượt qua Verilator Linting.
 === 1/4: Đang tạo Module Documentation ===
-=== 2/4: Đang tổng hợp với Yosys ===
+=== 2/4: Đang tổng hợp Netlist và FSM bằng Yosys ===
 === 3/4: Đang vẽ Schematic và FSM ===
 === 4/4: Đang mô phỏng ===
 VCD info: dumpfile sim/waveform.vcd opened for output.
