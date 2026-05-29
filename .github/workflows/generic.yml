@@ -1,4 +1,4 @@
-name: Generic Pipeline
+name: Silk EDA Pipeline
 
 on:
   push:
